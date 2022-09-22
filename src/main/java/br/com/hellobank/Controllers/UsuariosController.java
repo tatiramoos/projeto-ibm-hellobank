@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.hellobank.Models.Usuario;
 import br.com.hellobank.Service.IUsuarioService;
+import io.swagger.annotations.ApiOperation;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -25,7 +26,15 @@ public class UsuariosController {
     private IUsuarioService service;
 
     
+    @GetMapping("/listar")
+    @ApiOperation(value = "Lista todos os usuários")
+    public ArrayList<Usuario> buscaUsuario() {
+        return service.listarUsuario();
+    }
+
+
     @PostMapping(value = "/cadastrar")
+    @ApiOperation(value = "Cadastra um novo usuário")
     public ResponseEntity<Usuario> novoCliente(@RequestBody Usuario novo) {
         Usuario res = service.cadastrarUsuario(novo);
         if (res != null) {
@@ -35,12 +44,9 @@ public class UsuariosController {
 
     }
 
-    @GetMapping("/listar")
-    public ArrayList<Usuario> buscaUsuario() {
-        return service.listarUsuario();
-    }
 
     @PutMapping(value = "atualizar")
+    @ApiOperation(value = "Atualiza os dados de um usuário")
     public ResponseEntity <Usuario> alterarCliente(@RequestBody Usuario dados) {
       Usuario res = service.atualizarUsuario(dados);
       if (dados != null) {
@@ -51,6 +57,7 @@ public class UsuariosController {
     }
 
     @GetMapping("/buscar/{id}")
+    @ApiOperation(value = "Busca um único usuário")
     public ResponseEntity<Usuario> buscarID(@PathVariable Integer id) {
         Usuario res = service.buscarUsuario(id);
         if (res != null) {
@@ -60,6 +67,7 @@ public class UsuariosController {
         }
 
     @DeleteMapping("/deletar")
+    @ApiOperation(value = "Deleta um usuário")
     public ResponseEntity<Usuario> excluirCliente(@PathVariable Integer id){
         service.deletarUsuario(id);
             return ResponseEntity.ok(null);

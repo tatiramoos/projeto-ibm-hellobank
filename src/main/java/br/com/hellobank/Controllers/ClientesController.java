@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
+@RequestMapping(value = "/clientes")
 @RestController
 public class ClientesController {
 
@@ -25,6 +26,7 @@ public class ClientesController {
     private IClienteService service;
 
     @GetMapping("/listar")
+    @ApiOperation(value = "Lista todos os clientes")
     public ArrayList<Cliente> buscaClientes() {
         return service.listarClientes();
     }

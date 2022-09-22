@@ -15,17 +15,26 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.hellobank.Models.Conta;
 import br.com.hellobank.Service.IContaService;
+import io.swagger.annotations.ApiOperation;
 
-@RequestMapping(value = "/conta")
+@RequestMapping(value = "/contas")
 @RestController
-public class ContaController {
+public class ContasController {
     
 
     @Autowired
     private IContaService service;
 
 
+    @GetMapping("/listar")
+    @ApiOperation(value = "Lista todas as contas")
+    public ArrayList<Conta> buscaEnderecos() {
+        return (ArrayList<Conta>) service.listarConta();
+    }
+
+    
     @PostMapping(value = "/cadastrar")
+    @ApiOperation(value = "Cadastra uma conta")
     public ResponseEntity<Conta> novaConta(@RequestBody Conta novo) {
         Conta res = service.cadastrarConta(novo);
         if (res != null) {
@@ -35,12 +44,9 @@ public class ContaController {
 
     }
 
-    @GetMapping("/listar")
-    public ArrayList<Conta> buscaEnderecos() {
-        return (ArrayList<Conta>) service.listarConta();
-    }
 
     @PutMapping(value = "atualizar")
+    @ApiOperation(value = "Atualiza os dados de uma conta")
     public ResponseEntity <Conta> alterarConta(@RequestBody Conta dados) {
       Conta res = service.atualizarConta(dados);
       if (dados != null) {
@@ -51,6 +57,7 @@ public class ContaController {
     }
 
     @GetMapping("/buscar/{id}")
+    @ApiOperation(value = "Busca uma única conta")
     public ResponseEntity<Conta> buscarEndereco(@PathVariable Integer id) {
         Conta res = service.buscarConta(id);
         if (res != null) {
@@ -60,6 +67,7 @@ public class ContaController {
         }
 
     @DeleteMapping("/deletar")
+    @ApiOperation(value = "Deleta uma conta")
     public ResponseEntity<Conta> excluirCliente(@PathVariable Integer id){
         service.deletarConta(id);
             return ResponseEntity.ok(null);
