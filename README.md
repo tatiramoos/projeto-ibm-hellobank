@@ -1,5 +1,5 @@
 
-![logohellobank (2)](https://user-images.githubusercontent.com/106891550/191657706-f0bbb973-5af6-4d30-83f9-17b4f8d623e8.png)
+![Purple Minimalist Business Banking  Facebook Ad](https://user-images.githubusercontent.com/106891550/191754324-5e9a9679-2785-40f5-99b0-e30f39777ee1.png)
 
 
 ## 🐱‍💻 Sobre o projeto
