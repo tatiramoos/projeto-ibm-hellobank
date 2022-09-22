@@ -117,10 +117,9 @@
     public ResponseEntity<Cliente> excluirCliente(@PathVariable Integer id){
         service.deletarCliente(id);
             return ResponseEntity.ok(null);
-    }
-    
-    
-    ## 🚀 Tecnologias
+    }  
+
+ ## 🚀 Tecnologias
 
 <code>
   <img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white"/>
