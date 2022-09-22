@@ -2,9 +2,12 @@
 ![logohellobank (2)](https://user-images.githubusercontent.com/106891550/191657706-f0bbb973-5af6-4d30-83f9-17b4f8d623e8.png)
 
 
-## 👨🏻‍💻 Sobre o projeto
+## 🐱‍💻 Sobre o projeto
 
-### 💻 Desenvolvedores
+Recebemos o desafio de desenvolver uma aplicação para a nova plataforma do Banco HelloBank. Essa nova plataforma tem como objetivo gerenciar transações dos clientes do banco. O sistema deve permitir cadastro de novos clientes, incluindo dados pessoais e dados para contato. O cliente deve ser atrelado a uma conta bancária e registrar histórico de transações entre contas.
+
+
+## 🤯💻 Desenvolvedores
 <table>
   <tr>
     <td align="center">
