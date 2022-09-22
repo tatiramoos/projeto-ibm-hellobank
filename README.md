@@ -114,7 +114,7 @@
         return ResponseEntity.notFound().build();
         }
         
-        <b> DELETE - Deleta um cliente </b>
+ <b> DELETE - Deleta um cliente </b>
 
 `DELETE /clientes/deletar`
 
