@@ -7,7 +7,7 @@
 Recebemos o desafio de desenvolver uma aplicação para a nova plataforma do Banco HelloBank. Essa nova plataforma tem como objetivo gerenciar transações dos clientes do banco. O sistema deve permitir cadastro de novos clientes, incluindo dados pessoais e dados para contato. O cliente deve ser atrelado a uma conta bancária e registrar histórico de transações entre contas.
 
 
-## 🤯💻 Desenvolvedores
+## 🤯💻 Desenvolvedores | Equipe 03 - {Mãe, tô na IBM!!!}
 <table>
   <tr>
     <td align="center">
@@ -48,6 +48,10 @@ Recebemos o desafio de desenvolver uma aplicação para a nova plataforma do Ban
   </tr>
 </table>
 
+## Back-end
+
+<p>Nosso back-end consiste em um banco de dados para o armazenamento de clientes, endereços, usuários, contas e transações feitas pelos clientes
+e uma API para gerenciar transações dos clientes do banco. </p>
 
 
 ## Modelo Entidade-Relacionamento
