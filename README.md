@@ -1,6 +1,9 @@
 
 ![Purple Minimalist Business Banking  Facebook Ad](https://user-images.githubusercontent.com/106891550/191754324-5e9a9679-2785-40f5-99b0-e30f39777ee1.png)
 
+<h1 align="center">
+  HelloBank
+</h1>
 
 ## 🐱‍💻 Sobre o projeto
 
