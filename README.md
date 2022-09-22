@@ -60,5 +60,67 @@
   <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"/>
 </code>
 
-## 👨🏻‍💻 Endpoints
+## Endpoints de Clientes
 
+ <b> GET - Lista todos os clientes </b>
+
+`GET /clientes/listar`
+
+    @GetMapping("/listar")
+    @ApiOperation(value = "Lista todos os clientes")
+    public ArrayList<Cliente> buscaClientes() {
+        return service.listarClientes();
+    }
+
+<b> POST - Cadastra um cliente </b>
+
+`POST /clientes/cadastrar`
+
+    @PostMapping(value = "/cadastrar")
+    @ApiOperation(value = "Cadastra um cliente")
+    public ResponseEntity<Cliente> novoCliente(@RequestBody Cliente novo) {
+        Cliente res = service.cadastrarCliente(novo);
+        if (res != null) {
+            return ResponseEntity.ok(res);
+        }
+        return ResponseEntity.badRequest().build();
+    }
+
+<b> PUT - Atualiza os dados de um cliente </b>
+
+`PUT /clientes/atualizar`
+
+    @PutMapping(value = "atualizar")
+    @ApiOperation(value = "Atualiza os dados de um cliente")
+    public ResponseEntity <Cliente> alterarCliente(@RequestBody Cliente dados) {
+      Cliente res = service.atualizarCliente(dados);
+      if (dados != null) {
+        return ResponseEntity.ok(res);
+      }
+      return ResponseEntity.badRequest().build();
+    }
+
+<b> GET - Busca um único cliente </b>
+
+`GET /clientes/buscar`
+
+    @GetMapping("/buscar/{id}")
+    @ApiOperation(value = "Busca um único cliente")
+    public ResponseEntity<Cliente> buscarID(@PathVariable Integer id) {
+        Cliente res = service.buscarID(id);
+        if (res != null) {
+            return ResponseEntity.ok(res);
+        }
+        return ResponseEntity.notFound().build();
+        }
+        
+        <b> DELETE - Deleta um cliente </b>
+
+`DELETE /clientes/deletar`
+
+     @DeleteMapping("/deletar/{id}")
+    @ApiOperation(value = "Deleta um cliente")
+    public ResponseEntity<Cliente> excluirCliente(@PathVariable Integer id){
+        service.deletarCliente(id);
+            return ResponseEntity.ok(null);
+    }
