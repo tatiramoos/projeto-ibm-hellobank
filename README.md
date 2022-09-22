@@ -60,6 +60,14 @@
   <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"/>
 </code>
 
+
+## Modelo Entidade-Relacionamento
+
+![diagramabd](https://user-images.githubusercontent.com/106891550/191657354-b21ce5a8-e524-4ab2-97f0-fe1d13391be4.png)
+
+[hellobank.zip](https://github.com/tatiramoos/projeto-ibm-hellobank/files/9622178/hellobank.zip)
+
+
 ## Endpoints de Clientes
 
  <b> GET - Lista todos os clientes </b>
