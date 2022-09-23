@@ -14,10 +14,10 @@ Recebemos o desafio de desenvolver uma aplicação para a nova plataforma do Ban
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/lacerdaisab" target="_blank">
-        <img src="https://avatars.githubusercontent.com/lacerdaisab" width="100px;" alt="Foto Isabel Lacerda"/> <br>
-        <sub><b> Isabel Lacerda </b></sub> <br>
-        <sub><i> </sub> <br>
+      <a href="https://github.com/tatiramoos" target="_blank">
+        <img src="https://avatars.githubusercontent.com/tatiramoos" width="100px;" alt="Foto Tati Ramos"/> <br>
+        <sub><b> Tati Ramos </b></sub> <br>
+        <sub><i>  </i></sub> <br>
       </a>
     </td>
     <td align="center">
@@ -28,27 +28,12 @@ Recebemos o desafio de desenvolver uma aplicação para a nova plataforma do Ban
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/tatiramoos" target="_blank">
-        <img src="https://avatars.githubusercontent.com/tatiramoos" width="100px;" alt="Foto Tati Ramos"/> <br>
-        <sub><b> Tati Ramos </b></sub> <br>
-        <sub><i>  </i></sub> <br>
-      </a>
-    </td>
-    <td align="center">
       <a href="https://github.com/saculna" target="_blank">
         <img src="https://avatars.githubusercontent.com/saculna" width="100px;" alt="Foto Lucas de Andrade"/> <br>
         <sub><b> Lucas de Andrade </b></sub> <br>
         <sub><i>  </i></sub> <br>
       </a>
     </td>
-    <td align="center">
-      <a href="https://github.com/priscilafraifer" target="_blank">
-        <img src="https://avatars.githubusercontent.com/priscilafraifer" width="100px;" alt="Foto Priscila Fraifer"/> <br>
-        <sub><b> Priscila Fraifer </b></sub> <br>
-        <sub><i>  </i></sub> <br>
-      </a>
-    </td>
-  </tr>
 </table>
 
 ## Kanban no Trello 
