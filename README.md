@@ -52,7 +52,7 @@ Recebemos o desafio de desenvolver uma aplicação para a nova plataforma do Ban
 </table>
 
 ## Kanban no Trello 
-![Captura de Tela 2022-09-23 às 11 58 23](https://user-images.githubusercontent.com/106891550/191990995-5d8fb090-7263-477b-8e1d-bb90e9607481.png)
+![Captura de Tela 2022-09-23 às 12 08 28](https://user-images.githubusercontent.com/106891550/191993086-24126ddb-d657-4beb-a4ac-bec5a1907628.png)
 
 ## Back-end
 
