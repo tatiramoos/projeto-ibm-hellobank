@@ -51,6 +51,9 @@ Recebemos o desafio de desenvolver uma aplicação para a nova plataforma do Ban
   </tr>
 </table>
 
+## Kanban no Trello 
+![Captura de Tela 2022-09-23 às 11 58 23](https://user-images.githubusercontent.com/106891550/191990995-5d8fb090-7263-477b-8e1d-bb90e9607481.png)
+
 ## Back-end
 
 <p>Nosso back-end consiste em um banco de dados para o armazenamento de clientes, endereços, usuários, contas e transações feitas pelos clientes
