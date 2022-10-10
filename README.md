@@ -10,31 +10,7 @@
 Recebemos o desafio de desenvolver uma aplicação para a nova plataforma do Banco HelloBank. Essa nova plataforma tem como objetivo gerenciar transações dos clientes do banco. O sistema deve permitir cadastro de novos clientes, incluindo dados pessoais e dados para contato. O cliente deve ser atrelado a uma conta bancária e registrar histórico de transações entre contas.
 
 
-## 🤯💻 Desenvolvedores | Equipe 03 - {Mãe, tô na IBM!!!}
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/tatiramoos" target="_blank">
-        <img src="https://avatars.githubusercontent.com/tatiramoos" width="100px;" alt="Foto Tati Ramos"/> <br>
-        <sub><b> Tati Ramos </b></sub> <br>
-        <sub><i>  </i></sub> <br>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/Filipe-Oliveir4" target="_blank">
-        <img src="https://avatars.githubusercontent.com/Filipe-Oliveir4" width="100px;"alt="Foto Filipe Oliveira"/> <br>
-        <sub><b> Filipe Oliveira </b></sub> <br>
-        <sub><i>  </i></sub> <br>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/saculna" target="_blank">
-        <img src="https://avatars.githubusercontent.com/saculna" width="100px;" alt="Foto Lucas de Andrade"/> <br>
-        <sub><b> Lucas de Andrade </b></sub> <br>
-        <sub><i>  </i></sub> <br>
-      </a>
-    </td>
-</table>
+## 🤯💻 | Equipe 03 - {Mãe, tô na IBM!!!}
 
 ## Kanban no Trello 
 ![Captura de Tela 2022-09-23 às 12 08 28](https://user-images.githubusercontent.com/106891550/191993086-24126ddb-d657-4beb-a4ac-bec5a1907628.png)
